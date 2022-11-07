@@ -1,0 +1,78 @@
+body{
+    margin-top:20px;
+    background: #f6f9fc;
+}
+.account-block {
+    padding: 0;   
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.account-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.account-block .account-testimonial {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+}
+
+.text-theme {
+    color: #5369f8 !important;
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+
+.btn-theme {
+    background-color: #5369f8;
+    border-color: #5369f8;
+    color: #fff;
+}
+
+.justify-content-center{
+    margin-top: 50px;
+    -webkit-box-shadow: 9px 18px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 18px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 18px 17px 0px rgba(0,0,0,0.75);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    background: tomato;
+    height: 420px;
+}
+
+
+.border-0{
+    background: tomato;
+}
+
+.mb-5 {
+    margin-bottom: 1rem!important;
+}
+.top{
+    margin: 20px 0 20px 0;
+}
+
+.row>* {
+    
+    height: 380px;
+}
