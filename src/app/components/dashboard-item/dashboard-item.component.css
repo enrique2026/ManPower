@@ -2,4 +2,39 @@
     height: 100%;
     width: 115%;
     font-size: 13px;
+    background-color: #314d69;
+    
+}
+
+.post{
+    overflow: hidden;
+    transition: .2s;
+}
+
+.post:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -5px rgba(0,0,0,.65);
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    font-size: 16px;
+   
+}
+
+.subtitle{
+    margin-left: 8px;
+    font-size: 14px;
+    
+}
+
+.icon, .text {
+    display: flex;
+    justify-content: flex-end;
+}
+
+i{
+    color: #ff5700 ;
+    font-size: 20px;
 }

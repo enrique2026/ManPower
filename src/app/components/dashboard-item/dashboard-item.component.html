@@ -1,17 +1,24 @@
-<section id="dashboard" class="">
+<section id="dashboard" class="dash">
    
-      <div class="container-fluid">     
-  
-        <div class="card">
-          <span><span>e</span>{{properties.topTitle}}</span>
-          <br>
-          <span>{{properties.topSubTitle}}</span>
-                    
-          <div class="card-body">
-            <span><i [ngClass]="properties.icon" ></i></span>
-            <span>{{properties.bottomText}}</span>
-          </div>     
-        </div>        
-      </div>  
-</section>
+  <div class="container-fluid">     
 
+    <div class="card post">
+      <div class="title" >
+        <span style="color: #f0e9e6; font-weight: 700;">{{properties.topTitle}}</span>
+      </div>
+      <div class="subtitle">
+        <span style="color: #f0e9e6; font-weight: 700;">{{properties.topSubTitle}}</span>
+      </div>
+                
+      <div class="card-body">
+        <div class="icon">
+          <span><i [ngClass]="properties.icon " ></i></span>
+        </div>
+        <div class="text">
+          <span style="color: #f0e9e6; font-weight: 700;">{{properties.bottomText}}</span>
+        </div>          
+       
+      </div>     
+    </div>        
+  </div>  
+</section>

@@ -34,16 +34,24 @@ body{
 }
 
 .text-theme {
-    color: #5369f8 !important;
+    color: #f6f9fc !important;
     text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.h5{
+    color: #f6f9fc !important;    
+    text-align: center;   
+    
 }
 h6{
     text-align: center;
 }
 
 .btn-theme {
-    background-color: #5369f8;
-    border-color: #5369f8;
+    background-color: #ff5700;
+    border-color: #ff5700;
     color: #fff;
 }
 
@@ -56,17 +64,18 @@ h6{
     -moz-border-radius: 20px 20px 20px 20px;
     -webkit-border-radius: 20px 20px 20px 20px;
     border: 0px solid #000000;
-    background: tomato;
+    background: #314d69;
     height: 420px;
 }
 
 
 .border-0{
-    background: tomato;
+    background: #314d69;
 }
 
 .mb-5 {
-    margin-bottom: 1rem!important;
+    margin-bottom: 1rem!important;      
+      
 }
 .top{
     margin: 20px 0 20px 0;
@@ -75,4 +84,8 @@ h6{
 .row>* {
     
     height: 380px;
+}
+.format{
+    color: #f6f9fc !important;    
+    
 }

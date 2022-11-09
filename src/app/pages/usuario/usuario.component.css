@@ -1,0 +1,157 @@
+.add{
+    display: flex;    
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* .agregar{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-color: #ff5700;
+    color: #f8f8f8;
+    font-weight: 500;
+    background-color: #ff5700;
+}*/
+
+.buscar {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #101d2a;
+    color: white;
+    font-weight: bold;
+    font-size: 14px; 
+}
+.buscar:hover{
+    background-color:#314d69;
+    
+}
+.me-2{
+    height: 30px;
+}
+
+/* efecto agregar */
+
+.btn-outline-success {
+    --bs-btn-active-bg: #314d69;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #314d69;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #314d69 ;
+   }
+   
+button, button span {
+    transition: 200ms;
+}
+   
+button .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+      
+}
+   
+button .icon {
+    position: absolute;
+    border-left: 1px solid #314d69 	;
+    transform: translateX(110px);
+    height: 0px;
+    width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+button i {
+    width: 13px;
+    fill: #eee; 
+}
+   
+button:hover {
+    background: #314d69 ;
+}
+   
+button:hover .text{
+    color: transparent;
+    
+}
+   
+button:hover .icon {
+    width: 120px;
+    border-left: none;
+    transform: translateX(0);
+}
+   
+button:focus {
+    outline: none;
+}
+button:active .icon i {
+
+    transform: scale(0.8);
+}
+
+i{
+    color:  #ff5700;
+}
+   
+.btn-1{
+    width: 150px;
+} 
+
+
+/* estilos administrador de usuario */
+.usuario{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #314d69;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+i{
+   margin-left: 5px;
+}
+
+/* boton cambios */
+.cambios {
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #101d2a;
+    color: white;
+    font-weight: bold;
+    font-size: 12px; 
+}
+.cambios:hover{
+    background-color:#314d69;
+    
+}
+
+/* tabla */
+.tab{
+    margin-top: 20px;
+}
+
+.txt{
+    color: #314d69;
+    font-weight: 700;
+}

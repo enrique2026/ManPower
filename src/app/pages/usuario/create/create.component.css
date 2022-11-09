@@ -1,0 +1,93 @@
+/* .actualizar {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #101d2a;
+    color: white;
+    font-weight: bold;
+    font-size: 14px; 
+    background-color:#314d69;
+}
+.actualizar:hover{
+    background-color:#314d69;
+    
+} */
+/* estilos boton */
+.col-12{
+    margin-bottom: 20px;
+}
+.btn {
+    position: relative;
+    font-size: 14px;   
+    text-decoration: none;    
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    color: white;
+    background-color: #314d69;
+   }
+   
+   .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px #314d69;;
+   }
+   
+   .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #314d69;;
+   }
+   
+   .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   .btn::after {
+    background-color: #314d69;
+   }
+   
+   .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+
+   .btn-outline-success {
+    --bs-btn-active-bg: #314d69;
+   }
+
+   /* header */
+
+   .usuario{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #314d69;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+i{
+   margin-left: 5px;
+   color:  #ff5700;;
+}
+
+.txt{
+    color: #314d69;
+    font-weight: 700;
+}

@@ -1,6 +1,7 @@
-<div class="container"> 
+<div class="container-fluid"  class="padded"> 
   <div>
-    <h2  style="color: rgb(0, 64, 128)">Registro de Comprobantes de Pago</h2>  
+    <h2  style="color: #101d2a; text-align: center;">Registro de Comprobantes de Pago</h2>  
+    <br>
     <div class="row row-cols-1 row-cols-md-4 g-4" >
       <div class="col"   *ngFor="let item of registroCPE">
         <app-dashboard-item   [properties]="item"></app-dashboard-item>
@@ -11,7 +12,8 @@
   <br>
 
   <div>
-    <h2  style="color: rgb(0, 64, 128)">Logistica</h2>  
+    <h2  style="color:#101d2a; text-align: center;">Logistica</h2>  
+    <br>
     <div class="row row-cols-1 row-cols-md-4 g-4" >
       <div class="col"   *ngFor="let item of maestros">
         <app-dashboard-item   [properties]="item"></app-dashboard-item>
@@ -22,7 +24,8 @@
   <br>
 
   <div>
-    <h2  style="color: rgb(0, 64, 128)">Sistemas de Información</h2>  
+    <h2  style="color:#101d2a; text-align: center;">Sistemas de Información</h2>
+    <br>  
     <div class="row row-cols-1 row-cols-md-4 g-4" >
       <div class="col"   *ngFor="let item of serviciosIntegracion">
         <app-dashboard-item   [properties]="item"></app-dashboard-item>
@@ -33,7 +36,8 @@
   <br>
 
   <div>
-    <h2  style="color: rgb(0, 64, 128)">Configuración</h2>  
+    <h2  style="color: #101d2a; text-align: center;">Configuración</h2>
+    <br>  
     <div class="row row-cols-1 row-cols-md-4 g-4" >
       <div class="col"   *ngFor="let item of administrador">
         <app-dashboard-item   [properties]="item"></app-dashboard-item>

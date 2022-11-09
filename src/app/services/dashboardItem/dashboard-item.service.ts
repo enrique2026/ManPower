@@ -15,8 +15,8 @@ export class DashboardItemService {
       e: true,
       icon: "fas fa-envelope-open-text",
       bottomText: "Correos",
-      colorIcon: "#93b7d6",
-      topTitle: "-Recepción",
+      colorIcon: "#ff5700",
+      topTitle: "Recepción",
       topSubTitle: "Recepción de Documentos",
       path:"/home/correo"
     },
@@ -25,8 +25,8 @@ export class DashboardItemService {
         e: true,
         icon: "fas fa-tasks",
         bottomText: "Historial",
-        colorIcon: "#93b7d6",
-        topTitle: "-Analista",
+        colorIcon: "#ff5700",
+        topTitle: "Analista",
         topSubTitle: "Detalles de Comprobante Electrónicos",
         path:"/home/analista"
       },
@@ -36,8 +36,8 @@ export class DashboardItemService {
         e: true,
         icon: "fas fa-clipboard-list text-danger",
         bottomText: "Listado y Visualización",
-        colorIcon: "#93b7d6",
-        topTitle: "-Verificacion CPE",
+        colorIcon: "#ff5700",
+        topTitle: "Verificacion CPE",
         topSubTitle: "Contabilizar Facturas",
         path:"/home/contabilizacion/lista"
       },
@@ -47,8 +47,8 @@ export class DashboardItemService {
         e: true,
         icon: "fas fa-clipboard-list text-danger",
         bottomText: "Listado y Visualización",
-        colorIcon: "#93b7d6",
-        topTitle: "-Verificación CPE",
+        colorIcon: "#ff5700",
+        topTitle: "Verificación CPE",
         topSubTitle: "Contabilizar RHE",
         path:"/home/contabilizacion/rhe"
       },
@@ -59,7 +59,7 @@ export class DashboardItemService {
         e: false,
         icon: "fas fa-clipboard-list",
         bottomText: "Contabilizar",
-        colorIcon: "#93b7d6",
+        colorIcon: "#ff5700",
         topTitle: "Registro de Comprobantes",
         topSubTitle: "Cargar y Registrar",
         path:"/home/facturacion"
@@ -71,7 +71,7 @@ export class DashboardItemService {
         e: false,
         icon: "fas fa-file",
         bottomText: "Anulación",
-        colorIcon: "#FCAF4C",
+        colorIcon: "#ff5700",
         topTitle: "Anulación de Comprobantes",
         topSubTitle: "Visualizar y Contabilizar",
         path:"/home/contabilizacion/anulacion"
@@ -102,7 +102,7 @@ export class DashboardItemService {
         e: false,
         icon: "fas fa-clipboard-list",
         bottomText: "Reporte",
-        colorIcon: "#93b7d6",
+        colorIcon: "#ff5700",
         topTitle: "Listado Comprobantes Contab.",
         topSubTitle: "Consulta por Periodo",
         path:"/home/contabilizacion/consulta"
@@ -112,7 +112,7 @@ export class DashboardItemService {
         e: false,
         icon: "fas fa-clipboard-list",
         bottomText: "Gestión de la Compra",
-        colorIcon: "#93b7d6",
+        colorIcon: "#ff5700",
         topTitle: "P2P Purchase To Pay",
         topSubTitle: "Compra al Pago ",
         path:"/home/estadocuenta"
@@ -174,7 +174,7 @@ export class DashboardItemService {
       e: false,
       icon: "fas fa-table",
       bottomText: "Tipo de Cambio",
-      colorIcon: "#93b7d6",
+      colorIcon: "#ff5700",
       topTitle: "Tipo de Cambio",
       topSubTitle: "Tipo de Cambio",
       path:"/home/maestros"
@@ -186,7 +186,7 @@ export class DashboardItemService {
       e: false,
       icon: "fas fa-clipboard-list",
       bottomText: "Generacion de Actas",
-      colorIcon: "#93b7d6",
+      colorIcon: "#ff5700",
       topTitle: "Generacion de Actas",
       topSubTitle: "Generacion de Actas",
       path:"/home/actas"
@@ -203,11 +203,11 @@ export class DashboardItemService {
       return [ {
         id:6,
         e: false,
-        icon: "fas fa-cloud-upload",
+        icon: "fas fa-clipboard-list",
         bottomText: "Documentos",
-        colorIcon: "#93b7d6",
+        colorIcon: "#ff5700",
         topTitle: "Modulo de Entrenamiento",
-        topSubTitle: "cargar tipos de documento para validar",
+        topSubTitle: "Cargar documento para validar",
         path:"/home/entrenamiento"
       },
         /*{
@@ -224,7 +224,7 @@ export class DashboardItemService {
           e: false,
           icon: "fas fa-users-cog",
           bottomText: "Perfiles/Accesos",
-          colorIcon: "#93b7d6",
+          colorIcon: "#ff5700",
           topTitle: "Administrador Usuarios",
           topSubTitle: "Creacion/Modificacion",
           path:"/home/reporte"
@@ -233,7 +233,7 @@ export class DashboardItemService {
           e: false,
           icon: "fas fa-cogs",
           bottomText: "Configuración del Sistema",
-          colorIcon: "#93b7d6",
+          colorIcon: "#ff5700",
           topTitle: "Configuración del Sistema",
           topSubTitle: "Configuración",
           path:"/home/configuracion"
